@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/project.png" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/history.css" />
+    <title>Youtube | My Final Project</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_left">
+        <button class="header_left_menu">
+          <img id="menu" src="./img/menu.png" alt="menu" />
+        </button>
+        <a href="#" class="header_logo_link">
+          <h1>Youtube</h1>
+        </a>
+      </div>
+      <div class="header_center">
+        <form action="" class="search_bar">
+          <input type="text" class="search_bar input" placeholder="검색" />
+          <div>
+            <button class="icon">
+              <img id="clicklogo" src="./img/click.png" alt="click" />
+            </button>
+            <button class="icon">
+              <img id="miclogo" src="./img/mic.png" alt="mic" />
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="header_right">
+        <button class="icon">
+          <img id="apps" src="./img/apps.png" alt="apps" />
+        </button>
+        <button class="icon">
+          <img id="alarm" src="./img/alarm.png" alt="" />
+        </button>
+        <button class="icon">
+          <img id="myPage" src="./img/myPage.png" alt="myPage" />
+        </button>
+      </div>
+    </header>
+    <main class="home">
+      <aside class="sidebar">
+        <nav class="sidebar_nav">
+          <ul class="sidebar_nav_items">
+            <li class="sidebar_nav_button" id="homeEffect" onclick="js:toHome()">
+              <button class="icon">
+                <img id="homeicon" src="./img/home.png" alt="home" />
+                <span>홈</span>
+              </button>
+            </li>
+            <li
+              class="sidebar_nav_button"
+              id="historyEffect"
+              onclick="js:toHistory()"
+            >
+              <button class="icon">
+                <img id="historyicon" src="./img/record.png" alt="history" />
+                <span>시청기록</span>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="contents">
+        <section id="home">
+          <h1>홈</h1>
+          <ul class="video_list">
+            <li class="video_item">
+              <img src="./img/Thumbnail.png" alt="썸네일" id="thumbnail" />
+              <div class="video_item_details">
+                <a href="#">
+                  <img class="profile" src="./img/youtuber.jpg" alt="프로필" />
+                </a>
+                <div class="video_item_meta">
+                  <h3 class="title">클론코딩 할 때 듣기 좋은 노래모음</h3>
+                  <p class="author">박성범</p>
+                  <p class="stat">조회수 1억 회 2일전</p>
+                </div>
+              </div>
+            </li>
+            <li class="video_item">
+              <img src="./img/Thumbnail.png" alt="썸네일" id="thumbnail" />
+              <div class="video_item_details">
+                <a href="#">
+                  <img class="profile" src="./img/youtuber.jpg" alt="프로필" />
+                </a>
+                <div class="video_item_meta">
+                  <h3 class="title">클론코딩 할 때 듣기 좋은 노래모음</h3>
+                  <p class="author">박성범</p>
+                  <p class="stat">조회수 1억 회 2일전</p>
+                </div>
+              </div>
+            </li>
+            <li class="video_item">
+              <img src="./img/Thumbnail.png" alt="썸네일" id="thumbnail" />
+              <div class="video_item_details">
+                <a href="#">
+                  <img class="profile" src="./img/youtuber.jpg" alt="프로필" />
+                </a>
+                <div class="video_item_meta">
+                  <h3 class="title">클론코딩 할 때 듣기 좋은 노래모음</h3>
+                  <p class="author">박성범</p>
+                  <p class="stat">조회수 1억 회 2일전</p>
+                </div>
+              </div>
+            </li>
+            <li class="video_item">
+              <img src="./img/Thumbnail.png" alt="썸네일" id="thumbnail" />
+              <div class="video_item_details">
+                <a href="#">
+                  <img class="profile" src="./img/youtuber.jpg" alt="프로필" />
+                </a>
+                <div class="video_item_meta">
+                  <h3 class="title">클론코딩 할 때 듣기 좋은 노래모음</h3>
+                  <p class="author">박성범</p>
+                  <p class="stat">조회수 1억 회 2일전</p>
+                </div>
+              </div>
+            </li>
+            <li class="video_item">
+              <img src="./img/Thumbnail.png" alt="썸네일" id="thumbnail" />
+              <div class="video_item_details">
+                <a href="#">
+                  <img class="profile" src="./img/youtuber.jpg" alt="프로필" />
+                </a>
+                <div class="video_item_meta">
+                  <h3 class="title">클론코딩 할 때 듣기 좋은 노래모음</h3>
+                  <p class="author">박성범</p>
+                  <p class="stat">조회수 1억 회 2일전</p>
+                </div>
+              </div>
+            </li>
+            <li class="video_item">
+              <img src="./img/Thumbnail.png" alt="썸네일" id="thumbnail" />
+              <div class="video_item_details">
+                <a href="#">
+                  <img class="profile" src="./img/youtuber.jpg" alt="프로필" />
+                </a>
+                <div class="video_item_meta">
+                  <h3 class="title">클론코딩 할 때 듣기 좋은 노래모음</h3>
+                  <p class="author">박성범</p>
+                  <p class="stat">조회수 1억 회 2일전</p>
+                </div>
+              </div>
+            </li>
+            <li class="video_item">
+              <img src="./img/Thumbnail.png" alt="썸네일" id="thumbnail" />
+              <div class="video_item_details">
+                <a href="#">
+                  <img class="profile" src="./img/youtuber.jpg" alt="프로필" />
+                </a>
+                <div class="video_item_meta">
+                  <h3 class="title">클론코딩 할 때 듣기 좋은 노래모음</h3>
+                  <p class="author">박성범</p>
+                  <p class="stat">조회수 1억 회 2일전</p>
+                </div>
+              </div>
+            </li>
+            <li class="video_item">
+              <img src="./img/Thumbnail.png" alt="썸네일" id="thumbnail" />
+              <div class="video_item_details">
+                <a href="#">
+                  <img class="profile" src="./img/youtuber.jpg" alt="프로필" />
+                </a>
+                <div class="video_item_meta">
+                  <h3 class="title">클론코딩 할 때 듣기 좋은 노래모음</h3>
+                  <p class="author">박성범</p>
+                  <p class="stat">조회수 1억 회 2일전</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section id="history">
+          <p><h2>시청기록</h2></p><br>
+          <p><h3>시청 기록이 없습니다.</h3></p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <ul>
+        <li><a href="#" class="footer_link">회사소개</a></li>
+        <li><a href="#" class="footer_link">인재채용</a></li>
+        <li><a href="#" class="footer_link">이용약관</a></li>
+        <li><a href="#" class="footer_link">개인정보 처리 방침</a></li>
+        <li><a href="#" class="footer_link">고객센터</a></li>
+      </ul>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
